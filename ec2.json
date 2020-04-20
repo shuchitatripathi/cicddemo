@@ -11,8 +11,8 @@
       "EC2Instance": {
          "Type": "AWS::EC2::Instance",
          "Properties": {
-            "ImageId": "ami-0ce71448843cb18a1",
-            "InstanceType": "t2.small",
+            "ImageId": "ami-06ce3edf0cff21f07",
+            "InstanceType": "t2.micro",
             "KeyName": "Shuchita_Ireland",
             "SubnetId": {
               "Fn::ImportValue": "PublicSubnetID"
