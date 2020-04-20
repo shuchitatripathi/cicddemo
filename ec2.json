@@ -13,7 +13,7 @@
          "Properties": {
             "ImageId": "ami-0d6621c01e8c2de2c",
             "InstanceType": "t2.micro",
-            "KeyName": "Shuchita_Ireland",
+            "KeyName": "Shuchita_Oregon",
             "SubnetId": {
               "Fn::ImportValue": "PublicSubnetID"
             },
